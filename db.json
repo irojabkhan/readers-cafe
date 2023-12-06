@@ -1,0 +1,249 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 24.99,
+      "description": "The story of the fabulously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.",
+      "thumbnail": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781524879761/the-great-gatsby-9781524879761_hr.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 2,
+      "name": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "price": 14.99,
+      "description": "The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it.",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/1200px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 3,
+      "name": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "price": 11.99,
+      "description": "The novel follows the emotional development of the protagonist, Elizabeth Bennet, who learns the error of making hasty judgments and comes to appreciate the difference between the superficial and the essential.",
+      "thumbnail": "https://images.squarespace-cdn.com/content/v1/58c180edff7c50dd0e51a2ad/1596042032039-IN7LLXRVDKGVC854LVHE/9780241375273.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 4,
+      "name": "1984",
+      "author": "George Orwell",
+      "price": 10.99,
+      "description": "A dystopian novel that explores the consequences of totalitarianism, mass surveillance, and thought control.",
+      "thumbnail": "https://149522020.v2.pressablecdn.com/wp-content/uploads/2017/01/2a34d8_a6741e88335241308890543d203ad89dmv2.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 5,
+      "name": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "price": 12.39,
+      "description": "The story of Holden Caulfield's experiences in New York City following his expulsion from an elite prep school.",
+      "thumbnail": "https://cdn.britannica.com/94/181394-050-2F76F7EE/Reproduction-cover-edition-The-Catcher-in-the.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 6,
+      "name": "Moby-Dick",
+      "author": "Herman Melville",
+      "price": 21.99,
+      "description": "The novel tells the story of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge against a giant white sperm whale.",
+      "thumbnail": "https://static01.nyt.com/images/2011/10/22/books/review/moby-dick-slideshow-slide-V7YU/moby-dick-slideshow-slide-V7YU-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+      "product_type": "book"
+    },
+    {
+      "id": 7,
+      "name": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "price": 24.99,
+      "description": "An epic high-fantasy novel that follows the quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+      "thumbnail": "https://s26162.pcdn.co/wp-content/uploads/2017/05/the-lord-of-the-rings-book-cover.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 8,
+      "name": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 28.99,
+      "description": "The prelude to 'The Lord of the Rings,' following the adventures of Bilbo Baggins as he helps a group of dwarves reclaim their homeland from the dragon Smaug.",
+      "thumbnail": "https://i.pinimg.com/1200x/27/cf/91/27cf91f605923223613909c7b9d2219f.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 9,
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "price": 13.99,
+      "description": "The first book in the 'Harry Potter' series, which introduces the young wizard Harry Potter and his journey into the world of magic.",
+      "thumbnail": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2018%2F04%2Fhp_1_cvr_lrgb-2000.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 10,
+      "name": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "price": 8.99,
+      "description": "In a dystopian future, Katniss Everdeen volunteers to participate in the Hunger Games, a televised event in which tributes must fight to the death.",
+      "thumbnail": "https://laburnumhouse.co.uk/wp-content/uploads/products/the20hunger20games198.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 11,
+      "name": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 12.99,
+      "description": "A philosophical book about following your dreams and listening to your heart's desires on a journey to find one's purpose.",
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 12,
+      "name": "Brave New World",
+      "author": "Aldous Huxley",
+      "price": 16.99,
+      "description": "A dystopian novel that explores a society where technological and genetic advancements have led to extreme conformity and social control.",
+      "thumbnail": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/bfffaf13630039.562761884989f.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 13,
+      "name": "The Road",
+      "author": "Cormac McCarthy",
+      "price": 10.99,
+      "description": "A post-apocalyptic novel following a father and son's harrowing journey through a bleak and desolate landscape.",
+      "thumbnail": "https://dboyle93.files.wordpress.com/2014/05/lgammsga3lfinmcsqge9uprno1_500.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 14,
+      "name": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "price": 4.39,
+      "description": "A thriller that combines art, history, and religion as Robert Langdon investigates a murder that leads to a global conspiracy.",
+      "thumbnail": "https://www.thoughtco.com/thmb/dbFTerm-8CCGlvFHiV9_yq58h_w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/the-da-vinci-code-589f9cee3df78c4758a2d9e7.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 15,
+      "name": "The Shining",
+      "author": "Stephen King",
+      "price": 8.49,
+      "description": "A psychological horror novel that follows a family's terrifying experiences while isolated in a haunted hotel.",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/09/The_Shining_%281977%29_front_cover%2C_first_edition.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 16,
+      "name": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "price": 5.99,
+      "description": "A comedic science fiction series that follows the misadventures of Arthur Dent after Earth's destruction.",
+      "thumbnail": "https://assets-eu-01.kc-usercontent.com/bcd02f72-b50c-0179-8b4b-5e44f5340bd4/f2c1107f-3fc3-4235-a480-524d1b40102e/hitchhikers-guide-to-the-galaxy-80s.jpg?w=404&h=599&auto=format&bg=%23efefef&fit=crop",
+      "product_type": "book"
+    },
+    {
+      "id": 17,
+      "name": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "price": 8.99,
+      "description": "A dystopian novel set in a theocratic society where women's rights have been severely restricted.",
+      "thumbnail": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f84431102015333.5f2c6d2183d05.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 18,
+      "name": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "price": 14.59,
+      "description": "The story of Holden Caulfield's experiences in New York City following his expulsion from an elite prep school.",
+      "thumbnail": "https://cdn.britannica.com/94/181394-050-2F76F7EE/Reproduction-cover-edition-The-Catcher-in-the.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 19,
+      "name": "War and Peace",
+      "author": "Leo Tolstoy",
+      "price": 4.99,
+      "description": "An epic novel that follows the lives of several Russian aristocratic families during the Napoleonic era.",
+      "thumbnail": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781524864989/war-and-peace-9781524864989_hr.jpg",
+      "product_type": "book"
+    },
+    {
+      "id": 20,
+      "name": "The Aleph and Other Stories",
+      "author": "Jorge Luis Borges",
+      "price": 4.34,
+      "description": "The Aleph and Other Stories (Spanish: El Aleph, 1949) is a book of short stories by Argentine writer Jorge Luis Borges. The title work, 'The Aleph', describes a point in space that contains all other spaces at once. The work also presents the idea of infinite time.",
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1622617703i/5787.jpg",
+      "product_type": "book"
+    }
+  ],
+  "coffee": [
+    {
+      "id": 101,
+      "name": "Espresso",
+      "description": "A strong and concentrated coffee made by forcing hot water through finely-ground coffee beans.",
+      "caffeine_level": "High",
+      "price": 2.99,
+      "thumbnail": "https://savoredsips.com/wp-content/uploads/2017/12/coffee-art.jpg",
+      "product_type": "coffee"
+    },
+    {
+      "id": 102,
+      "name": "Cappuccino",
+      "description": "An Italian coffee drink that is traditionally prepared with equal parts espresso, steamed milk, and milk foam.",
+      "caffeine_level": "Medium",
+      "price": 3.49,
+      "thumbnail": "https://www.roastycoffee.com/wp-content/uploads/Australian-Cappuccino-e1633700166537-720x720.jpg",
+      "product_type": "coffee"
+    },
+    {
+      "id": 103,
+      "name": "Latte",
+      "description": "A coffee drink made with espresso and steamed milk. It has a mild flavor and is often topped with a small amount of milk foam.",
+      "caffeine_level": "Low",
+      "price": 3.29,
+      "thumbnail": "https://www.caffesociety.co.uk/assets/recipe-images/latte-small.jpg",
+      "product_type": "coffee"
+    },
+    {
+      "id": 104,
+      "name": "Americano",
+      "description": "A diluted espresso with added hot water, resulting in a coffee similar in strength but different in flavor to drip coffee.",
+      "caffeine_level": "Medium",
+      "price": 3.19,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScs6LLJ8sy6QPE--WgFKMAY1wO_IRiKO2sbA&usqp=CAU",
+      "product_type": "coffee"
+    },
+    {
+      "id": 105,
+      "name": "French Press",
+      "description": "A method of manually brewing coffee that involves steeping coarsely-ground coffee beans in hot water before pressing them with a plunger.",
+      "caffeine_level": "High",
+      "price": 4.99,
+      "thumbnail": "https://www.javapresse.com/cdn/shop/articles/beginner_french_press_3f157cff-c2cc-40d4-8f99-16767c3699b3.jpg?v=1565202612",
+      "product_type": "coffee"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "name": "The Great Gatsby",
+      "price": 24.99,
+      "thumbnail": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781524879761/the-great-gatsby-9781524879761_hr.jpg",
+      "product_type": "book",
+      "quantity": 1
+    },
+    {
+      "id": 101,
+      "name": "Espresso",
+      "price": 2.99,
+      "thumbnail": "https://savoredsips.com/wp-content/uploads/2017/12/coffee-art.jpg",
+      "product_type": "coffee",
+      "quantity": 1
+    }
+  ]
+}

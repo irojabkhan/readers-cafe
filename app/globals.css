@@ -18,10 +18,14 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+.books .ant-card-cover {
+  @apply h-[355px] overflow-hidden bg-gray-200;
+}
+.books .ant-card-cover img {
+  @apply w-full h-full object-contain;
+}
+.ant-card-cover {
+  @apply rounded-tr-md rounded-tl-md;
 }
