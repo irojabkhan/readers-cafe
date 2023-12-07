@@ -38,7 +38,7 @@ function page() {
         return acc;
     }, 0) || 0;
 
-    const shippingCharge: string = cartItems?.length == 0 ? '0' : (cartItems?.length > 3) ? "4.44" : "9.99";
+    const shippingCharge: string = cartItems?.length == 0 ? '0' : (cartItems?.length > 3) ? "4.49" : "9.99";
     const shippingChargeAsNumber: number = parseFloat(shippingCharge);
     const totalAmount = subTotalPrice + shippingChargeAsNumber;
 
