@@ -8,7 +8,7 @@ const { Meta } = Card;
 const { Text } = Typography;
 
 interface CardLayoutProps {
-  id?: string;
+  id: number;
   name: string;
   description?: string;
   author: string;
@@ -20,7 +20,7 @@ interface CardLayoutProps {
 
 const CardLayout = ({id, img, name, author, description, price, addToCart, onPreview} : CardLayoutProps) => (
   <Card
-    id={id}
+    key={id}
     hoverable
     cover={<img alt="example" className='' src={img} />}
     actions={[

@@ -4,7 +4,7 @@ import { Layout } from 'antd';
 import HeaderLayout from '../../_components/Header/HeaderLayout'
 import FooterLayout from '../../_components/Footer/FooterLayout'
 
-const { Content, Footer } = Layout;
+const { Content } = Layout;
 
 function layout({ children } : { children: React.ReactNode}) {
   return (

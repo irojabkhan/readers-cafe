@@ -19,7 +19,7 @@ const handleAddToCart = async (book: any) => {
   await addToCart({id, name, price, thumbnail, product_type, quantity});  
 }
 
-  const handlePreview = (id: string) => {
+  const handlePreview = (id: number) => {
     router.push(`/books/${id}`)
   }
   
@@ -33,7 +33,7 @@ const handleAddToCart = async (book: any) => {
         <div className='grid grid-cols-4 gap-4 books'>
           {isLoading && <p>Loading...</p>}
           {error && <p>Something went wrong...</p>}
-          {data?.map((book) => (
+          {data && data.map((book) => (
             <CardLayout 
               key={book.id} 
               id={book.id} 
@@ -42,7 +42,7 @@ const handleAddToCart = async (book: any) => {
               price={book.price} 
               img={book.thumbnail} 
               addToCart={() => handleAddToCart(book)} 
-              onPreview={() => handlePreview(book.id || '')}
+              onPreview={() => handlePreview(book.id)}
             />
           ))}
         </div>

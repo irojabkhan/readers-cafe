@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import MainLayout from './MainLayout'
+import AuthProvider from './AuthProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,25 +19,11 @@ export default function RootLayout({
   return (
       <html lang="en">
         <body className={inter.className}>
-          <MainLayout>{children}</MainLayout>
+          <AuthProvider>
+            <MainLayout>{children}</MainLayout>
+          </AuthProvider>
         </body>
       </html>
   )
 }
 
-
-// json-server --watch db.json --port 8000
-
-
-    // const handleUpdateCart = (item, e) => {
-        // const newQuantity = e.target.value;
-        // // Update the quantity of the item in the cartItem array
-        // const updatedCartItem = cartItem.map((item) => {
-        //     if (item.id === item.id) {
-        //         return { ...item, quantity: newQuantity };
-        //     }
-        //     return item;
-        // });
-        // Update the cartItem state with the updatedCartItem array
-        // setCartItem(updatedCartItem);
-    // }}
