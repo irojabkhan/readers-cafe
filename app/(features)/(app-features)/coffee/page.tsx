@@ -12,7 +12,7 @@ function Coffee() {
 
   const [addToCart] = useAddToCartMutation();
 
-  const handlePreview = (id: string) => {
+  const handlePreview = (id: number) => {
     router.push(`/coffee/${id}`)
   }
 
@@ -32,17 +32,17 @@ function Coffee() {
         <div className='grid grid-cols-4 gap-4'>
           {isLoading && <p>Loading...</p>}
           {error && <p>Something went wrong...</p>}
-          {data?.map((coffee) => (
+          {data && data.map((coffee) => (
             <CoffeeCard 
               key={coffee.id} 
-              id={coffee.id} 
+              id={coffee.id}
               name={coffee.name} 
               description={coffee.description} 
               caffeineLevel={coffee.caffeineLevel} 
               price={coffee.price} 
               thumbnail={coffee.thumbnail}
-              addToCart={() => handleAddToCart(coffee)} 
-              onPreview={() => handlePreview(coffee.id || '')}
+              addToCart={() => handleAddToCart(coffee)}
+              onPreview={() => handlePreview(coffee.id)}
             />
           ))}
         </div>

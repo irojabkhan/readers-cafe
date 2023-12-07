@@ -22,7 +22,7 @@ function Coffee() {
     await addToCart({id, name, price, thumbnail, product_type, quantity});
   }
 
-  const handlePreview = (id: string) => {
+  const handlePreview = (id: number) => {
     router.push(`/coffee/${id}`)
   }
   return (
@@ -40,6 +40,7 @@ function Coffee() {
         <div className="grid grid-cols-4 gap-4 books">
             {coffeeShortList && coffeeShortList.map((coffee) => (
               <CoffeeCard 
+                id={coffee.id}
                 key={coffee.id} 
                 name={coffee.name} 
                 description={coffee.description} 
@@ -47,7 +48,7 @@ function Coffee() {
                 price={coffee.price} 
                 thumbnail={coffee.thumbnail} 
                 addToCart={() => handleAddToCart(coffee)}
-                onPreview={() => handlePreview(coffee.id || '')}
+                onPreview={() => handlePreview(coffee.id)}
               />
             ))}
         </div>

@@ -230,12 +230,12 @@
   ],
   "cart": [
     {
-      "id": 1,
-      "name": "The Great Gatsby",
-      "price": 24.99,
-      "thumbnail": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781524879761/the-great-gatsby-9781524879761_hr.jpg",
-      "product_type": "book",
-      "quantity": 1
+      "id": 102,
+      "name": "Cappuccino",
+      "price": 3.49,
+      "thumbnail": "https://www.roastycoffee.com/wp-content/uploads/Australian-Cappuccino-e1633700166537-720x720.jpg",
+      "product_type": "coffee",
+      "quantity": 2
     },
     {
       "id": 101,

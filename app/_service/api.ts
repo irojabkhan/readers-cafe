@@ -29,11 +29,11 @@ export const api = createApi({
             }),
             invalidatesTags: ['Item'],
         }),
-        deleteItem: builder.mutation<void, CartItem>({
+        deleteItem: builder.mutation<void, number>({
             query: (id) => ({
                 url: `/cart/${id}`,
                 method: 'DELETE',
-                id
+                // id
             }),
             invalidatesTags: ['Item'],
         }),

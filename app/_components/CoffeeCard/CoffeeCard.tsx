@@ -6,7 +6,7 @@ const { Meta } = Card;
 const { Text } = Typography
 
 interface CoffeeItemProps {
-  id?: string,
+  id: number,
   name: string,
   description?: string,
   caffeineLevel: string,
@@ -18,7 +18,7 @@ interface CoffeeItemProps {
 
 const CoffeeCard = ({id, name, description, caffeineLevel, price, thumbnail, onPreview, addToCart}: CoffeeItemProps) => (
   <Card
-    id={id}
+    key={id}
     hoverable
     className=''
     cover={<img alt="example" src={thumbnail} />}

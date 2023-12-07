@@ -2,11 +2,20 @@
 import React, { useState, useEffect } from 'react'
 import { DeleteOutlined } from '@ant-design/icons';
 import { useGetCartItemQuery, useDeleteItemMutation, useUpdateItemMutation } from '@/app/_service/api'
-import { log } from 'console';
+interface CartItem {
+    id: number;
+    name: string;
+    description?: string;
+    caffeineLevel?: string;
+    price: number;
+    product_type: string,
+    quantity?: number,
+    thumbnail: string;
+}
 
 function page() {
 
-    const [cartItems, setCartItems] = useState([])
+    const [cartItems, setCartItems] = useState<CartItem[]>([]);
 
     const { data, isLoading, isSuccess, refetch } = useGetCartItemQuery();
     const [deleteItem] = useDeleteItemMutation();
@@ -15,7 +24,7 @@ function page() {
     useEffect(() => {
         if (data) {
             refetch();
-            setCartItems(data);
+            setCartItems(data as CartItem[]);
         }
     }, [data])
 
@@ -29,18 +38,20 @@ function page() {
         return acc;
     }, 0) || 0;
 
-    const shippingCharge: string = cartItems?.length == 0 ? '0' : (cartItems?.length > 3) ? "4.44" : "9.99";
+    const shippingCharge: string = cartItems?.length == 0 ? '0' : (cartItems?.length > 3) ? "4.49" : "9.99";
     const shippingChargeAsNumber: number = parseFloat(shippingCharge);
     const totalAmount = subTotalPrice + shippingChargeAsNumber;
 
     const handleDeleteCart = async (id: number) => {
         try {
+
             await deleteItem(id);
             refetch();
+
         } catch (error) {
-            console.log(error);
+            console.error("Error deleting item:", error);
         }
-    }
+    };
 
     const handleUpdateCart = async (item: { id: number; quantity: number }, e: any) => {
         const { id, quantity } = item;

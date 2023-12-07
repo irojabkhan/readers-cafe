@@ -1,6 +1,6 @@
 
 export interface Books {
-    id?: number;
+    id: number;
     name: string;
     description?: string;
     author: string;
@@ -9,7 +9,7 @@ export interface Books {
 }
 
 export interface Coffee {
-    id?: number;
+    id: number;
     name: string;
     description?: string;
     caffeineLevel: string;
@@ -18,7 +18,7 @@ export interface Coffee {
 }
 
 export interface CartItem {
-    id?: number;
+    id: number;
     name: string;
     description?: string;
     caffeineLevel?: string;

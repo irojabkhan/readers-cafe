@@ -16,7 +16,7 @@ function Books() {
     router.push('/books')
   }
 
-  const handlePreview = (id: string) => {
+  const handlePreview = (id: number) => {
     router.push(`/books/${id}`)
   }
 
@@ -45,13 +45,14 @@ function Books() {
           {/* {error && <p>{error}</p>} */}
           {booksShortList?.map((book) => (
             <CardLayout 
+              id={book.id}
               key={book.id}
               name={book.name} 
               author={book.author} 
               price={book.price} 
               img={book.thumbnail} 
               addToCart={() => handleAddToCart(book)}
-              onPreview={() => handlePreview(book.id || '')}
+              onPreview={() => handlePreview(book.id)}
             />
           ))}
         </div>
