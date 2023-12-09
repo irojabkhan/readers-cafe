@@ -230,19 +230,19 @@
   ],
   "cart": [
     {
-      "id": 102,
-      "name": "Cappuccino",
-      "price": 3.49,
-      "thumbnail": "https://www.roastycoffee.com/wp-content/uploads/Australian-Cappuccino-e1633700166537-720x720.jpg",
-      "product_type": "coffee",
-      "quantity": 2
-    },
-    {
       "id": 101,
       "name": "Espresso",
       "price": 2.99,
       "thumbnail": "https://savoredsips.com/wp-content/uploads/2017/12/coffee-art.jpg",
       "product_type": "coffee",
+      "quantity": 4
+    },
+    {
+      "id": 2,
+      "name": "To Kill a Mockingbird",
+      "price": 14.99,
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/1200px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+      "product_type": "book",
       "quantity": 1
     }
   ]
