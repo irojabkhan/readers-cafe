@@ -12,16 +12,16 @@ function page() {
   const router = useRouter();
   const { data: session, status } = useSession()
 
-  useEffect(() => {
-    if (status === "authenticated") {
-      router.push('/home');
-      console.log('home');
-    } else {
-      // router.push('/login');
-      // console.log('login');
+  // useEffect(() => {
+  //   if (status === "authenticated") {
+  //     router.push('/home');
+  //     console.log('home');
+  //   } else {
+  //     router.push('/login');
+  //     console.log('login');
       
-    }
-  }, [status])
+  //   }
+  // }, [status])
   
   const handleSubmit = async (e: any) => {
     e.preventDefault();
