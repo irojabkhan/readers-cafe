@@ -2,7 +2,7 @@
 import { signIn } from 'next-auth/react';
 import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
-// import { useSession } from 'next-auth/react'
+import { useSession } from 'next-auth/react'
 
 function page() {
   const [userInfo, setUserInfo] = useState({
@@ -10,24 +10,25 @@ function page() {
     password: ''
   })
   const router = useRouter();
-  // const { data: session, status } = useSession()
+  const { data: session, status } = useSession()
 
-  // useEffect(() => {
-  //   if (status === "authenticated") {
-  //     router.push('/home');
-  //   } else {
-  //     router.push('/login');
-  //   }
-  // }, [status])
+  useEffect(() => {
+    if (status === "authenticated") {
+      router.push('/home');
+    } else {
+      router.push('/login');
+    }
+  }, [status])
   
   const handleSubmit = async (e: any) => {
     e.preventDefault();
     
-    // await signIn('credentials', {
-    //   email: userInfo.email,
-    //   password: userInfo.password,
-    //   redirect: false
-    // })
+    await signIn('credentials', {
+      email: userInfo.email,
+      password: userInfo.password,
+      redirect: false
+    })
+    
   }
 
   return (

@@ -230,18 +230,10 @@
   ],
   "cart": [
     {
-      "id": 101,
-      "name": "Espresso",
-      "price": 2.99,
-      "thumbnail": "https://savoredsips.com/wp-content/uploads/2017/12/coffee-art.jpg",
-      "product_type": "coffee",
-      "quantity": 4
-    },
-    {
-      "id": 2,
-      "name": "To Kill a Mockingbird",
-      "price": 14.99,
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/1200px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+      "id": 14,
+      "name": "The Da Vinci Code",
+      "price": 4.39,
+      "thumbnail": "https://www.thoughtco.com/thmb/dbFTerm-8CCGlvFHiV9_yq58h_w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/the-da-vinci-code-589f9cee3df78c4758a2d9e7.jpg",
       "product_type": "book",
       "quantity": 1
     }
