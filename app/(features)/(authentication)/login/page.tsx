@@ -15,8 +15,11 @@ function page() {
   useEffect(() => {
     if (status === "authenticated") {
       router.push('/home');
+      console.log('home');
     } else {
       router.push('/login');
+      console.log('login');
+      
     }
   }, [status])
   
