@@ -17,8 +17,8 @@ function page() {
       router.push('/home');
       console.log('home');
     } else {
-      router.push('/login');
-      console.log('login');
+      // router.push('/login');
+      // console.log('login');
       
     }
   }, [status])
