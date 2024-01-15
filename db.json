@@ -235,7 +235,15 @@
       "price": 4.39,
       "thumbnail": "https://www.thoughtco.com/thmb/dbFTerm-8CCGlvFHiV9_yq58h_w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/the-da-vinci-code-589f9cee3df78c4758a2d9e7.jpg",
       "product_type": "book",
-      "quantity": 1
+      "quantity": 5
+    },
+    {
+      "id": 3,
+      "name": "Pride and Prejudice",
+      "price": 11.99,
+      "thumbnail": "https://images.squarespace-cdn.com/content/v1/58c180edff7c50dd0e51a2ad/1596042032039-IN7LLXRVDKGVC854LVHE/9780241375273.jpg",
+      "product_type": "book",
+      "quantity": 19
     }
   ]
 }

@@ -3,7 +3,7 @@ import type { Books, Coffee, CartItem } from './types';
 
 export const api = createApi({
     reducerPath: 'booksApi',
-    baseQuery: fetchBaseQuery({baseUrl: process.env.BASEURL}),
+    baseQuery: fetchBaseQuery({baseUrl: process.env.NEXT_PUBLIC_BASEURL}),
     tagTypes: ['Item'],
     endpoints: (builder) => ({
         getBooks: builder.query<Books[], void>({
