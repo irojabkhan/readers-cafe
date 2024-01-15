@@ -1,7 +1,7 @@
 "use client"
 import { signIn } from 'next-auth/react';
 import React, { useState, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { useSession } from 'next-auth/react'
 
 function page() {
@@ -22,6 +22,8 @@ function page() {
       
   //   }
   // }, [status])
+
+  const searchParams = useSearchParams();
   
   const handleSubmit = async (e: any) => {
     e.preventDefault();
@@ -29,7 +31,8 @@ function page() {
     await signIn('credentials', {
       email: userInfo.email,
       password: userInfo.password,
-      redirect: false
+      redirect: true,
+      callbackUrl: searchParams.get("callbackUrl") || "/",
     })
     
   }
